@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 project(un4seenbass-example CXX)
-add_executable(main main.cpp)
+add_executable(un4seenexample main.cpp)
 target_link_libraries(main ${CMAKE_SOURCE_DIR}/libbass.so)
 include_directories("${CMAKE_SOURCE_DIR}")
